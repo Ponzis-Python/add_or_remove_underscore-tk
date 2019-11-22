@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 from tkinter import *
 
-#def select_all(event=None):
-#    blank2.tag_add('sel', '1.0', 'end')
-#    return "break"
 def select_all(event=None):
     # first set the focus to the entry widget
     blank2.focus()
@@ -46,7 +43,6 @@ Label(main, text=" add or remove underscore ").grid(row=0, columnspan=3, sticky=
 
 blank = Entry(main)
 blank2 = Entry(main)
-#blank2 = Text(main)
 
 blank.grid(row=1, column=0, columnspan=2, sticky=W)
 blank2.grid(row=2, column=0, columnspan=2, sticky=W)
